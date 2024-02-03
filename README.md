@@ -2,9 +2,7 @@
   // =================== CONFIGURACIÓN: Básica de VSCode ===================
   "workbench.startupEditor": "none", // <== No abrir el archivo de bienvenida
   "screencastMode.onlyKeyboardShortcuts": true,
-  "breadcrumbs.enabled": false, // <== Mostrar migas de pan
-  // =================== CONFIGURACIÓN: Ventanas, temas, iconos ===================
-  "window.zoomLevel": -1, // <== Nivel de zoom de la pantalla
+  "breadcrumbs.enabled": false, // <== Nivel de zoom de la pantalla
   "workbench.sideBar.location": "right", // <== Posición de la barra lateral
   "workbench.iconTheme": "material-icon-theme", // <== Tema de iconos
   "workbench.colorTheme": "Min Dark",
@@ -79,9 +77,13 @@
   "editor.cursorBlinking": "smooth",
   "editor.stickyScroll.enabled": true,
   "editor.minimap.enabled": false,
+  "editor.scrollbar.vertical": "auto",
+  "editor.overviewRulerBorder": false,
+  "editor.hideCursorInOverviewRuler": true,
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": "active",
   "editor.wordWrap": "on",
+
   // =================== CONFIGURACIÓN: Terminal Linux ===================
   "terminal.integrated.fontSize": 16,
   "terminal.integrated.shell.linux": "bash",
@@ -112,5 +114,6 @@
   // =================== CONFIGURACIÓN: Seguridad ===================
   "security.workspace.trust.untrustedFiles": "newWindow",
   "editor.matchBrackets": "never",
-  "workbench.activityBar.location": "top" // <== Abrir archivos no confiables en una nueva ventana
+  "workbench.activityBar.location": "top",
+  "window.zoomLevel": -1 // <== Abrir archivos no confiables en una nueva ventana
 }
