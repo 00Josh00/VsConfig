@@ -114,6 +114,6 @@
   // =================== CONFIGURACIÓN: Seguridad ===================
   "security.workspace.trust.untrustedFiles": "newWindow",
   "editor.matchBrackets": "never",
-  "workbench.activityBar.location": "top",
+  "workbench.activityBar.location": "bottom",
   "window.zoomLevel": -1 // <== Abrir archivos no confiables en una nueva ventana
 }
